@@ -1,7 +1,9 @@
+import { TimeCards } from "./component/time-cards";
+
 export default function RightPanel(props: any) {
   return (
     <div {...props}>
-      <h1>Clock!</h1>
+      <TimeCards />
     </div>
   );
 }
